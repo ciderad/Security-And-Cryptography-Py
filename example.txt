@@ -1,0 +1,12 @@
+THIS FILE IS BEING HASHED. hashing ensures crytopgraphic integrity
+
+- **encryption:** primarily related to confidentiality
+    - roughly the same size as the plain-text message
+- **hashing:** helps check the integrity of an input/file
+    - $H(x)$ → $H( ),$ hash function and x, input
+    - deterministic digests
+        - same input produces same output
+        - output has standardized length
+        - given $H(x)$ its hard to know or compute $x$
+        - differing inputs have differing digests
+        - ***collision resistant:*** no case of different inputs having the same output
