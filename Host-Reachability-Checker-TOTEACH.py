@@ -5,7 +5,7 @@ Lightweight security placeholder script:
 - Verifies integrity of a local file using SHA-256
 """
 
-import hashlib
+import hashlib #hashing algorithm library
 import subprocess
 
 def ping_host(target: str) -> bool:
@@ -24,7 +24,8 @@ def file_hash(path: str) -> str:
 
 if __name__ == "__main__":
     host = "8.8.8.8"
-    test_file = "example.txt"
-
+    test_file = "exampleHASH1.txt"
+    
+    #TEST CASE 1 USING EXAMPLE.TXT
     print(f"[+] Host reachable: {ping_host(host)}")
     print(f"[+] {test_file} SHA-256: {file_hash(test_file)}")
