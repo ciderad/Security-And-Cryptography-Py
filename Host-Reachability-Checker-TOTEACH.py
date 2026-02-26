@@ -24,7 +24,7 @@ def file_hash(path: str) -> str:
 
 if __name__ == "__main__":
     host = "8.8.8.8"
-    test_file = "example.txt"
+    test_file = "file.txt"
     
     #TEST CASE 1 USING EXAMPLE.TXT
     print(f"[+] Host reachable: {ping_host(host)}")
